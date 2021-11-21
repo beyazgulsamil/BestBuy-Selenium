@@ -1,0 +1,13 @@
+Parallel02IT.class
+steps\ProductPageSteps.class
+steps\CountryPageSteps.class
+Parallel01IT.class
+steps\CommonSteps.class
+steps\GoogleSignPageSteps.class
+Parallel04IT.class
+steps\SearchPageSteps.class
+Parallel05IT.class
+steps\TopMenuSteps.class
+Parallel03IT.class
+steps\HomePageSteps.class
+steps\SignInPageSteps.class

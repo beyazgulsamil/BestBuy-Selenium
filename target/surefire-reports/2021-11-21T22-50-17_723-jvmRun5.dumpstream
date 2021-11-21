@@ -1,0 +1,21 @@
+# Created at 2021-11-21T22:51:25.873
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2021-11-21T22:51:47.175
+Unexpected IOException with stream: Capturing page
+
+
+# Created at 2021-11-21T22:51:47.200
+Unexpected IOException: 8,1,Parallel02IT,runScenario(Parallel02IT),null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-KHES326'\002C ip: '192.168.1.101'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.12'\000ADriver info: driver.version: Driver,null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-KHES326'\002C ip: '192.168.1.101'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.12'\000ADriver info: driver.version: Driver,Parallel02IT>AbstractTestNGCucumberTests.runScenario:27 \00BB UnreachableBrowser C...,org.openqa.selenium.remote.UnreachableBrowserException: \000ACould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-KHES326'\002C ip: '192.168.1.101'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.12'\000ADriver info: driver.version: Driver\000ACaused by: java.io.IOException: unexpected end of stream on Connection{localhost:4444\002C proxy=DIRECT hostAddress=localhost/0:0:0:0:0:0:0:1:4444 cipherSuite=none protocol=http/1.1}\000ACaused by: java.io.EOFException: \005Cn not found: limit=0 content=\2026\000A
+
+
+# Created at 2021-11-21T22:51:47.391
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,Parallel02IT,null,null,null
+
+

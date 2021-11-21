@@ -201,7 +201,7 @@
             </goals>
             <configuration>
               <glue>steps</glue>
-              <featuresDirectory>src/test/java/features</featuresDirectory>
+              <featuresDirectory>src/test/resources/features</featuresDirectory>
               <cucumberOutputDir>target/cucumber-parallel</cucumberOutputDir>
               <plugins>
                 <plugin>

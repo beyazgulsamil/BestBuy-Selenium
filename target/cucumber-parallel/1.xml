@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testng-results failed="0" passed="1" skipped="0" total="1">
+<suite duration-ms="37796" name="cucumber.runtime.formatter.TestNGFormatter">
+<test duration-ms="37796" name="cucumber.runtime.formatter.TestNGFormatter">
+<class name="bootcamp tests">
+<test-method duration-ms="37796" finished-at="2021-11-21T22:50:57Z" name="TaskOne" started-at="2021-11-21T22:50:57Z" status="PASS"/>
+</class>
+</test>
+</suite>
+</testng-results>
