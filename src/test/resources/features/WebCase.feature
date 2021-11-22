@@ -21,7 +21,6 @@ Feature: bootcamp tests
     * I fill password beyazgul741
     * Show password in sign page
     * I click Sign In
-    * I wait for 5 seconds
     * Verify to successful sign text
 
 
@@ -36,11 +35,9 @@ Feature: bootcamp tests
     * Fill password gmail yenihesap
     * I click forward pass button
     * Switch use window
-    * I wait for 5 seconds
     * Create new tab
     * I navigate to bestbuy.com
     * Verify to successful sign text
-    * I wait for 5 seconds
 
   Scenario: TaskFour
     * Window Maximize
@@ -55,11 +52,4 @@ Feature: bootcamp tests
     * I click SAVE button
     * I click Saved Items button
     * Verify saved list
-    * I wait for 5 seconds
-
-  Scenario: example
-    * Create new tab
-    * I wait for 5 seconds
-
-
 
